@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Lunar</title>
+</head>
+<body>
+
+
+    <div id="estrella">
+
+        
+        
+          <div id="planeta">
+        </div>
+      </div>
+      
+
+
+
+
+
+<img src="https://yt3.googleusercontent.com/jUXU46JEYO1R4kG9eI8TKW7tkrGaJ8cEtVwUT_JP_K_0LKxQJetHWOa4LV-z7BeGUbXY_WoHlg=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="moon" class="down-moon">
+
+
+    
+</body>
+</html>
+
+
+
+<style>
+
+
+* {
+ 	box-sizing: border-box;
+}
+
+body {
+  background: #010101;
+  overflow: hidden;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2020/12/04/1401507/36eec1be50aa7da60161e45da00fca4f.jpg);
+
+
+
+  background-position: center center;
+			
+background-attachment: fixed;
+
+
+background-repeat: no-repeat;
+
+
+background-size: auto
+
+
+
+
+
+
+}
+
+#estrella {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 90px;
+  height: 90px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: orange;
+  box-shadow: 0 0 50px rgba(219, 230, 224, 1);
+}
+
+#planeta {
+  position: absolute;
+  left: 10px;
+  top: 1px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #010101;
+
+  box-shadow: inset 0 0 50px rgba(150, 150, 150, 0.2);
+  animation: eclipse 10s infinite linear;
+  transform-origin: 50% 150%;
+  transform: rotate(-60deg);
+}
+
+@keyframes eclipse {
+  0% {
+   	transform: rotate(-60deg); 
+  }
+  
+  90% {
+   	transform: rotate(30deg); 
+  }
+  
+  100%{
+    transform: rotate(300deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.down-moon{
+
+width: 50%;
+padding-top: 70%;
+margin-left: 100%;
+
+
+
+
+}
+
+
+h2:hover{
+color: darkcyan;
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+body {
+width: 100%;
+
+
+}
+
+
+
+
+
+}
+
+#estrella {
+
+  
+  left: 25%;
+  top: 6%;
+  width: 50px;
+  height: 50px;
+
+
+}
+
+
+#planeta {
+
+  
+left: 13%;
+top: 10%;
+width: 50px;
+height: 50px;
+
+
+}
+
+
+
+
+
+
+</style>
